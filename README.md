@@ -7,7 +7,7 @@
 
 ---
 
-##  À propos de moi
+ À propos de moi
 
 Je suis à la croisée de deux mondes : **la finance** et **la data**.
 
