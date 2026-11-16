@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,60:1a1d22,100:2e3137&height=230&section=header&text=Bienvenue%20sur%20le%20GitHub%20de%20C%C3%A9line&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Finance%20%C2%B7%20Audit%20%C2%B7%20Data%20%26%20IA&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+  <img src="./banner.svg" width="100%" alt="Bienvenue sur le GitHub de Céline"/>
 </p>
 
 <p align="center">
@@ -110,5 +110,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2e3137,40:1a1d22,100:000000&height=120&section=footer&text=Merci%20de%20votre%20visite&fontSize=22&fontColor=ffffff&fontAlignY=70" width="100%"/>
+  <img src="./footer.svg" width="100%" alt="Merci de votre visite"/>
 </p>

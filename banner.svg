@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#1a1d22"/></linearGradient>
+ <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#d9d9d9"/><stop offset="1" stop-color="#bdbdbd"/></radialGradient>
+ <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6a24"/><stop offset="1" stop-color="#f1d28a"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+ .t{font-family:'Courier New',Courier,monospace;fill:#fff;font-weight:700}
+ .s{font-family:'Courier New',Courier,monospace;fill:#bfbfbf}
+ .line{stroke-dasharray:2200;stroke-dashoffset:2200;animation:draw 5s ease-out forwards}
+ .glowline{stroke-dasharray:2200;stroke-dashoffset:2200;animation:draw 5s ease-out forwards}
+ .dot{opacity:0;animation:show .4s 5s forwards}
+ .cur{animation:blink 1s steps(1) infinite}
+ .fade{opacity:0;animation:show 1.5s .3s forwards}
+ .fade2{opacity:0;animation:show 1.5s 1.2s forwards}
+ @keyframes draw{to{stroke-dashoffset:0}}
+ @keyframes show{to{opacity:1}}
+ @keyframes blink{50%{opacity:0}}
+</style>
+<rect width="1200" height="420" fill="url(#sky)"/>
+<circle cx="389" cy="38" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" begin="2.1s" repeatCount="indefinite"/></circle>
+<circle cx="217" cy="145" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="47" cy="167" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" begin="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="886" cy="99" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="888" cy="114" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="581" cy="21" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" begin="3.0s" repeatCount="indefinite"/></circle>
+<circle cx="888" cy="57" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="900" cy="120" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" begin="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="521" cy="218" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="391" cy="130" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="146" cy="111" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.0s" begin="1.7s" repeatCount="indefinite"/></circle>
+<circle cx="23" cy="139" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="220" cy="224" r="1" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.8s" begin="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="1193" cy="9" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" begin="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="798" cy="95" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.0s" begin="1.1s" repeatCount="indefinite"/></circle>
+<circle cx="704" cy="98" r="1" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="1071" cy="171" r="0.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" begin="0.2s" repeatCount="indefinite"/></circle>
+<circle cx="552" cy="211" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="2.7s" repeatCount="indefinite"/></circle>
+<circle cx="21" cy="115" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.9s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="1010" cy="95" r="90" fill="url(#glow)"/>
+<circle cx="1010" cy="95" r="42" fill="url(#moon)"/>
+<circle cx="996" cy="85" r="7" fill="#c9c9c9" opacity="0.6"/><circle cx="1024" cy="108" r="5" fill="#c9c9c9" opacity="0.5"/>
+<path d="M0,420 L0,288 L60,224 L120,231 L180,277 L240,255 L300,260 L360,241 L420,229 L480,292 L540,297 L600,225 L660,261 L720,231 L780,300 L840,260 L900,235 L960,279 L1020,215 L1080,219 L1140,297 L1200,298 L1200,420 Z" fill="#2a2d33"/>
+<path class="glowline" d="M40,333 L80,334 L120,346 L160,322 L200,320 L240,320 L280,299 L320,309 L360,311 L400,314 L440,280 L480,285 L520,272 L560,300 L600,291 L640,259 L680,296 L720,292 L760,274 L800,269 L840,245 L880,235 L920,254 L960,229 L1000,231 L1040,230 L1080,225 L1120,232 L1160,227" fill="none" stroke="#f1d28a" stroke-width="8" opacity="0.35" filter="url(#blur)"/>
+<path class="line" d="M40,333 L80,334 L120,346 L160,322 L200,320 L240,320 L280,299 L320,309 L360,311 L400,314 L440,280 L480,285 L520,272 L560,300 L600,291 L640,259 L680,296 L720,292 L760,274 L800,269 L840,245 L880,235 L920,254 L960,229 L1000,231 L1040,230 L1080,225 L1120,232 L1160,227" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linejoin="round"/>
+<g class="dot"><circle cx="1160" cy="227" r="6" fill="#f1d28a"/><circle cx="1160" cy="227" r="6" fill="none" stroke="#f1d28a" stroke-width="2"><animate attributeName="r" values="6;20" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.6s" repeatCount="indefinite"/></circle></g>
+<path d="M0,420 L0,278 L45,279 L90,341 L135,339 L180,287 L225,293 L270,298 L315,323 L360,303 L405,303 L450,304 L495,334 L540,315 L585,317 L630,294 L675,275 L720,279 L765,307 L810,314 L855,326 L900,342 L945,343 L990,312 L1035,323 L1080,318 L1125,283 L1170,308 L1215,306 L1200,420 Z" fill="#16181c"/>
+<path d="M0,420 L0,374 L35,361 L70,368 L105,358 L140,357 L175,382 L210,384 L245,347 L280,373 L315,374 L350,340 L385,364 L420,347 L455,364 L490,356 L525,378 L560,356 L595,346 L630,361 L665,352 L700,355 L735,382 L770,351 L805,358 L840,371 L875,384 L910,346 L945,364 L980,353 L1015,345 L1050,353 L1085,344 L1120,367 L1155,349 L1190,365 L1225,343 L1200,420 Z" fill="#08090b"/>
+<g class="fade">
+ <text x="600" y="150" text-anchor="middle" class="t" font-size="44">Bienvenue sur le GitHub de Céline<tspan class="cur" fill="#f1d28a">_</tspan></text>
+</g>
+<g class="fade2">
+ <text x="600" y="195" text-anchor="middle" class="s" font-size="20" letter-spacing="3">FINANCE · AUDIT · DATA &amp; IA</text>
+</g>
+</svg>
