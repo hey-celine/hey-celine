@@ -18,8 +18,7 @@ Je suis à la croisée de deux mondes : **la finance** et **la data**.
 - Ouverte à des opportunités en **audit**, **comptabilité** ou **analyse financière**
 
 ---
-
-##Projet phare : Archivio
+Projet phare : Archivio
 
 **Archivio** est une application de gestion des documents comptables conforme au **SCF**, née de mon mémoire de Master.
 
