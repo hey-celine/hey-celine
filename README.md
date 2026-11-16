@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Bienvenue sur le GitHub de Céline"/>
+  <img src="./<img width="2400" height="840" alt="image" src="https://github.com/user-attachments/assets/21f69619-79e5-4037-a64b-6b7b8fb1d360" />
+" width="100%" alt="Bienvenue sur le GitHub de Céline"/>
 </p>
 
 <h3 align="center">Me retrouver</h3>
