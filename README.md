@@ -53,20 +53,4 @@ Je suis à la croisée de deux mondes : **la finance** et **la data**.
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
----
-
-## Parcours
-
-| Poste | Structure | Période |
-|---|---|---|
-| Assistante administrative et comptable | Promotion immobilière | 2026 |
-| Stagiaire en banque de détail | Banque | 2026 |
-| Assistante en audit | Cabinet de commissariat aux comptes | 2025 – 2026 |
-| Stagiaire en comptabilité des assurances | Compagnie d'assurance | 2024 |
-
----
-
-## Langues
-
-Français (C2) · Anglais (C1, TOEFL) · Arabe (courant) ·  Espagnol (notions)
 
