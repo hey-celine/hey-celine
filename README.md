@@ -68,14 +68,5 @@ Je suis à la croisée de deux mondes : **la finance** et **la data**.
 
 ## Langues
 
-Français (C2) · Anglais (C1, TOEFL) · Arabe (courant) · Kabyle (langue maternelle) · Espagnol (notions)
+Français (C2) · Anglais (C1, TOEFL) · Arabe (courant) ·  Espagnol (notions)
 
-## En dehors du travail
-
-Échecs · Débat · Dessin · Piano · Natation
-
----
-
-## Me contacter
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TON-PROFIL-LINKEDIN)
