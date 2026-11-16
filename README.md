@@ -96,10 +96,7 @@
 
 <h2 align="center">Statistiques</h2>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hey-celine&show_icons=true&hide_border=true&bg_color=000000&title_color=C8A45C&icon_color=C8A45C&text_color=e6e6e6&locale=fr" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hey-celine&layout=compact&hide_border=true&bg_color=000000&title_color=C8A45C&text_color=e6e6e6&locale=fr" />
-</p>
+
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=hey-celine&hide_border=true&background=000000&ring=C8A45C&fire=C8A45C&currStreakLabel=C8A45C&sideLabels=E6E6E6&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=333333&locale=fr" />
