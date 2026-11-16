@@ -79,12 +79,12 @@
 
 <div align="center">
 
-| Poste | Structure | Période |
-|:---|:---|:---:|
-| Assistante administrative et comptable | Promotion immobilière | 2026 |
-| Stagiaire en banque de détail | Banque | 2026 |
-| Assistante en audit | Cabinet de commissariat aux comptes | 2025 – 2026 |
-| Stagiaire en comptabilité des assurances | Compagnie d'assurance | 2024 |
+| Poste | Structure | 
+|:---|:---|
+| Assistante administrative et comptable | Promotion immobilière |
+| Stagiaire en banque de détail | Banque | 
+| Assistante en audit | Cabinet de commissariat aux comptes | 
+| Stagiaire en comptabilité des assurances | Compagnie d'assurance | 
 
 </div>
 
