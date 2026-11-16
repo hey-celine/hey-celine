@@ -1,0 +1,26 @@
+name: daily-commit
+
+on:
+  schedule:
+    - cron: "17 8 * * *"   # chaque jour à 8h17 UTC (9h17 heure de Lagos)
+  workflow_dispatch:        # lancement manuel possible depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Commits du jour
+        run: |
+          git config user.name "hey-celine"
+          git config user.email "357259530+hey-celine@users.noreply.github.com"
+          mkdir -p .daily
+          for i in $(seq 1 $((RANDOM % 5 + 1))); do
+            date -u +"%F %T #$i" >> .daily/log.txt
+            git add .daily/log.txt
+            git commit -m "update $(date -u +%F) #$i"
+          done
+          git push
